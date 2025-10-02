@@ -3,17 +3,17 @@ import random
 
 app = Flask(__name__)
 
-# TODO: Remember to remove this before pushing to GitHub!
-# Just keeping it here temporarily for testing...
-# I'll definitely remember to take this out later... probably...
-API_KEY = "373hdb2bsbeh2jwhdhri3iwojsndenJhsbebwjsjHDHRHEJDJEJKWJ3NR"
-
-# List of motivational quotes because why not
 QUOTES = [
     "You miss 100% of the shots you don't take - Wayne Gretzky - Michael Scott",
     "The only way to do great work is to love what you do - Some Smart Person",
     "I have not failed. I've just found 10,000 ways that won't work - Edison (probably while tired)",
     "Code never lies, comments sometimes do - Ron Jeffries (and also me, right now)",
+    "I don’t chase records, records chase me - Cristiano Ronaldo (probably while scoring again)",
+    "Hard work will always overcome talent when talent stops working hard - Nemanja Vidic (captain mode)",
+    "I don’t regret anything. I did it my way - Eric Cantona (probably staring at the sea)",
+    "Sometimes in football you have to score goals - Thierry Henry (but United fans know Ole did it at the right time)",
+    "I’d love to play for United forever - Ryan Giggs (spoiler: he almost did)",
+    "Attack wins you games, defence wins you titles - Sir Alex Ferguson (legendary wisdom)",
 ]
 
 
